@@ -28,6 +28,13 @@
 -jar build/libs/springtest-1.0.jar --server.port=9393</span>
 </code></pre></div></div>
 
+<figure>
+<img src="https://github.com/ptabasso2/springTest0/blob/master/Images/Readme4.png" style="height: 200px; width: auto; margin-left: 150px">
+</figure>
+
+
+
+
 4/ Testing the application
 In another termnial window lauch the following command:
 
