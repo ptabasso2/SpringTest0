@@ -37,9 +37,3 @@ In another termnial window lauch the following command:
 
 <div class="highlight"><pre class="highlight" style="background-color: greydark;"><code style="font-size: 12.0px;">COMP10619:$ <span style="font-weight: bold">curl localhost:9393/ServiceC</span>
 </code></pre></div>
-
-This should normally display this type of lines:
-
-<figure>
-<img src="https://github.com/ptabasso2/springTchibo/blob/master/Result.png" style="height: 200px; width: auto; margin-left: 150px">
-</figure>
