@@ -25,7 +25,7 @@
 3/ Start the server with agent instrumentation
 
 <figure>
-<img src="https://github.com/ptabasso2/springTest0/blob/master/Images/Readme4.png" width=auto height="125px">
+<img src="https://github.com/ptabasso2/springTest0/blob/master/Images/Readme4.png" width=auto height="110px">
 </figure>
 
 
