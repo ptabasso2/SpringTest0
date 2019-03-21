@@ -29,10 +29,8 @@
 </code></pre></div></div>
 
 <figure>
-<img src="https://github.com/ptabasso2/springTest0/blob/master/Images/Readme4.png" style="height: 5px; width: 10; margin-left: 50px">
+<img src="https://github.com/ptabasso2/springTest0/blob/master/Images/Readme4.png" style="height: 5px; width: 10">
 </figure>
-
-
 
 
 4/ Testing the application
