@@ -23,13 +23,9 @@
 2/ Make sure the DD agent is running and listening on port **8126** 
 
 3/ Start the server with agent instrumentation
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight" style="background-color: greydark;"><code style="font-size: 12.0px;">COMP10619:$ <span style="font-weight: bold">java -javaagent:./dd-java-agent-0.17.0.jar
--Ddd.agent.host=localhost -Ddd.agent.port=8126 -Ddd.service.name=springtest
--jar build/libs/springtest-1.0.jar --server.port=9393</span>
-</code></pre></div></div>
 
 <figure>
-<img src="https://github.com/ptabasso2/springTest0/blob/master/Images/Readme4.png" width=auto height="100px">
+<img src="https://github.com/ptabasso2/springTest0/blob/master/Images/Readme4.png" width=auto height="125px">
 </figure>
 
 
