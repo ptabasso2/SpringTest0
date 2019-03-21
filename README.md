@@ -29,7 +29,7 @@
 </code></pre></div></div>
 
 <figure>
-<img src="https://github.com/ptabasso2/springTest0/blob/master/Images/Readme4.png" style="height: 50px; width: auto; margin-left: 50px">
+<img src="https://github.com/ptabasso2/springTest0/blob/master/Images/Readme4.png" style="height: 50px; width: 100; margin-left: 50px">
 </figure>
 
 
