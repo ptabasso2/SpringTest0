@@ -4,17 +4,17 @@
 
 
 <figure>
-<img src="https://github.com/ptabasso2/springTest0/blob/master/Images/Readme1.png" width=auto height="110px">
+<img src="https://github.com/ptabasso2/springTest0/blob/master/Images/Readme1.png" width=auto height="200px">
 </figure>
 
 
 <figure>
-<img src="https://github.com/ptabasso2/springTest0/blob/master/Images/Readme2.png" width=auto height="110px">
+<img src="https://github.com/ptabasso2/springTest0/blob/master/Images/Readme2.png" width=auto height="200px">
 </figure>
 
 
 <figure>
-<img src="https://github.com/ptabasso2/springTest0/blob/master/Images/Readme3.png" width=auto height="110px">
+<img src="https://github.com/ptabasso2/springTest0/blob/master/Images/Readme3.png" width=auto height="200px">
 </figure>
 
 
