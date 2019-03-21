@@ -8,17 +8,17 @@ COMP10619:$ <span style="font-weight: bold">cd springTest0</span>
 
 
 <figure>
-<img src="https://github.com/ptabasso2/springTest0/blob/master/Readme1.png" style="height: 200px; width: auto; margin-left: 150px">
+<img src="https://github.com/ptabasso2/springTest0/blob/master/Images/Readme1.png" style="height: 200px; width: auto; margin-left: 150px">
 </figure>
 
 
 <figure>
-<img src="https://github.com/ptabasso2/springTest0/blob/master/Readme2.png" style="height: 200px; width: auto; margin-left: 150px">
+<img src="https://github.com/ptabasso2/springTest0/blob/master/Images/Readme2.png" style="height: 200px; width: auto; margin-left: 150px">
 </figure>
 
 
 <figure>
-<img src="https://github.com/ptabasso2/springTest0/blob/master/Readme3.png" style="height: 200px; width: auto; margin-left: 150px">
+<img src="https://github.com/ptabasso2/springTest0/blob/master/Images/Readme3.png" style="height: 200px; width: auto; margin-left: 150px">
 </figure>
 
 
