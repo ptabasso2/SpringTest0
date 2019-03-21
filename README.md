@@ -14,7 +14,7 @@
 
 
 <figure>
-<img src="https://github.com/ptabasso2/springTest0/blob/master/Images/Readme3.png" style="height: 200px; width: auto; margin-left: 150px">
+<img src="https://github.com/ptabasso2/springTest0/blob/master/Images/Readme3.png" style="height: 100px; width: auto; margin-left: 150px">
 </figure>
 
 
