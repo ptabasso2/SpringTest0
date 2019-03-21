@@ -8,14 +8,13 @@ COMP10619:$ <span style="font-weight: bold">./gradlew build</span>
 </code></pre></div></div>
 
 
-<span style="font-weight: bold"> 
-Cloning into 'SpringTest0'...
-remote: Enumerating objects: 44, done.
-remote: Counting objects: 100% (44/44), done.
-remote: Compressing objects: 100% (38/38), done.
-remote: Total 44 (delta 8), reused 31 (delta 1), pack-reused 0
-Unpacking objects: 100% (44/44), done.
-</span>
+<span style="font-weight: bold">Cloning into 'SpringTest0'...</span>
+<span style="font-weight: bold">remote: Enumerating objects: 44, done.</span>
+<span style="font-weight: bold">remote: Counting objects: 100% (44/44), done.</span>
+<span style="font-weight: bold">remote: Compressing objects: 100% (38/38), done.</span>
+<span style="font-weight: bold">remote: Total 44 (delta 8), reused 31 (delta 1), pack-reused 0</span>
+<span style="font-weight: bold">Unpacking objects: 100% (44/44), done.</span>
+
 
 COMP10619:pej$ cd SpringTest0
 COMP10619:SpringTest0 pej$ ls -lrt
