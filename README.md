@@ -2,10 +2,6 @@
 
 1/ Cloning the repo and build 
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight" style="background-color: greydark;"><code style="font-size: 12.0px;">COMP10619:pej$ <span style="font-weight: bold">git clone https://github.com/ptabasso2/SpringTest0.git</span>
-COMP10619:$ <span style="font-weight: bold">cd springTest0</span>
-</code></pre></div></div>
-
 
 <figure>
 <img src="https://github.com/ptabasso2/springTest0/blob/master/Images/Readme1.png" style="height: 200px; width: auto; margin-left: 150px">
