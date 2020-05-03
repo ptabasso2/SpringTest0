@@ -6,15 +6,16 @@ jobs:
   build:
     name: build and run
     runs-on: ubuntu-latest
-    container:
-      image: node:10.16-jessie
-      env:
-        NODE_ENV: development
-      ports:
-        - 80
-      volumes:
-        - my_docker_volume:/volume_mount
-      options: --cpus 1
+    container: docker:dind
+#    container:
+#      image: node:10.16-jessie
+#      env:
+#        NODE_ENV: development
+#      ports:
+#        - 80
+#      volumes:
+#        - my_docker_volume:/volume_mount
+#      options: --cpus 1
     
     steps:
     - uses: actions/checkout@v2
