@@ -19,8 +19,9 @@ jobs:
     - name: Build with Gradle
       run: |
         hostname
-        uname
+        uname -n
         id
-        gradle build
+        docker ps
+        gradlew build
         ls -lrt ./build/libs
-        java -jar ./build/libs/springtest0-1.0.jar
+#       java -jar ./build/libs/springtest0-1.0.jar
