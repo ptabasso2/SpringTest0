@@ -27,6 +27,10 @@ jobs:
         service_account_key: ${{ secrets.GKE_SA_KEY }}
         project_id: ${{ secrets.GKE_PROJECT }}
 
+    - name: Setup java
+      uses: actions/setup-java@v1
+      with:
+        java-version: '11'
     # Configure Docker to use the gcloud command-line tool as a credential
     # helper for authentication
     - run: |-
@@ -45,6 +49,7 @@ jobs:
       run: |-
         gcloud info
         kubectl get pods -o wide
+        java -version
         
     
     # Push the Docker image to Google Container Registry
