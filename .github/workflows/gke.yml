@@ -44,6 +44,9 @@ jobs:
 #          .
       run: |-
         gcloud info
+        kubectl get pods -o wide
+        
+    
     # Push the Docker image to Google Container Registry
 #    - name: Publish
 #      run: |-
