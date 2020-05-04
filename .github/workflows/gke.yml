@@ -1,14 +1,14 @@
 name: Build and Deploy to GKE
 
-#on:
-#  push:
-#    branches:
-#    - master
+on:
+  push:
+    branches:
+    - master
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
-  GKE_CLUSTER: cluster-1   # TODO: update to cluster name
-  GKE_ZONE: us-central1-c  # TODO: update to cluster zone
+  GKE_CLUSTER: pejman-sncf-cluster-1   # TODO: update to cluster name
+  GKE_ZONE: europe-west3-a  # TODO: update to cluster zone
   IMAGE: static-site
 
 jobs:
@@ -36,25 +36,27 @@ jobs:
         gcloud container clusters get-credentials "$GKE_CLUSTER" --zone "$GKE_ZONE"
     # Build the Docker image
     - name: Build
+#      run: |-
+#        docker build \
+#          --tag "gcr.io/$PROJECT_ID/$IMAGE:$GITHUB_SHA" \
+#          --build-arg GITHUB_SHA="$GITHUB_SHA" \
+#          --build-arg GITHUB_REF="$GITHUB_REF" \
+#          .
       run: |-
-        docker build \
-          --tag "gcr.io/$PROJECT_ID/$IMAGE:$GITHUB_SHA" \
-          --build-arg GITHUB_SHA="$GITHUB_SHA" \
-          --build-arg GITHUB_REF="$GITHUB_REF" \
-          .
+        gcloud info
     # Push the Docker image to Google Container Registry
-    - name: Publish
-      run: |-
-        docker push "gcr.io/$PROJECT_ID/$IMAGE:$GITHUB_SHA"
+#    - name: Publish
+#      run: |-
+#        docker push "gcr.io/$PROJECT_ID/$IMAGE:$GITHUB_SHA"
     # Set up kustomize
-    - name: Set up Kustomize
-      run: |-
-        curl -sfLo kustomize https://github.com/kubernetes-sigs/kustomize/releases/download/v3.1.0/kustomize_3.1.0_linux_amd64
-        chmod u+x ./kustomize
+#    - name: Set up Kustomize
+#      run: |-
+#        curl -sfLo kustomize https://github.com/kubernetes-sigs/kustomize/releases/download/v3.1.0/kustomize_3.1.0_linux_amd64
+#        chmod u+x ./kustomize
     # Deploy the Docker image to the GKE cluster
-    - name: Deploy
-      run: |-
-        ./kustomize edit set image gcr.io/PROJECT_ID/IMAGE:TAG=gcr.io/$PROJECT_ID/$IMAGE:$GITHUB_SHA
-        ./kustomize build . | kubectl apply -f -
-        kubectl rollout status deployment/$IMAGE
-        kubectl get services -o wide
+#    - name: Deploy
+#      run: |-
+#        ./kustomize edit set image gcr.io/PROJECT_ID/IMAGE:TAG=gcr.io/$PROJECT_ID/$IMAGE:$GITHUB_SHA
+#        ./kustomize build . | kubectl apply -f -
+#        kubectl rollout status deployment/$IMAGE
+#        kubectl get services -o wide
