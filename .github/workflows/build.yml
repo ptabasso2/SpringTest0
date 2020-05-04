@@ -1,5 +1,5 @@
 name: SpringTest0
-on: [push]
+#on: [push]
 
 
 jobs:
